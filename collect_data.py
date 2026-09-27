@@ -9,9 +9,9 @@ mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 
 hands = mp_hands.Hands(
-    static_image_mode=False,
+    static_image_mode=True,
     max_num_hands=2,
-    min_detection_confidence=0.7,
+    min_detection_confidence=0.1,
     min_tracking_confidence=0.5
 )
 
@@ -66,7 +66,7 @@ samples_count = 0
 print("Controles :")
 print("  ESPACE : Activer/Desactiver l'enregistrement continu")
 print("  TAB    : Changer de signe cible")
-print("  ECHAP  : Quitter")
+print("  ECHAP  : Quitter") 
 
 while cap.isOpened():
     ret, frame = cap.read()
