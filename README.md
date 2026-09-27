@@ -23,7 +23,7 @@ Entrée (Vecteur de taille 126\)
 ## **2\. Configuration de l'environnement virtuel**
 
 \# Cloner le dépôt  
-git clone https://github.com//.git  
+git clone 
 cd "IA Naruto"
 
 \# Créer l'environnement virtuel avec Python 3.11  
